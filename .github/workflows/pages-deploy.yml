@@ -37,7 +37,6 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
-      url: ${{ steps.api.outputs.page_url }}
     permissions: # set minimal permissions needed
       pages: write
       id-token: write
