@@ -15,7 +15,7 @@ jobs:
           node-version: '18'
       - name: Install server deps
         working-directory: server
-        run: npm ci
+        run: npm install
       - name: Start server
         working-directory: server
         run: node server.js &
@@ -36,7 +36,7 @@ jobs:
           node-version: '18'
       - name: Install client deps
         working-directory: client
-        run: npm ci
+        run: npm install
       - name: Run client tests
         working-directory: client
         run: npm test
