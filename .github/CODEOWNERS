@@ -1,0 +1,11 @@
+# CODEOWNERS - who to notify / request reviews from for changes in the repo
+# Place owners by path. Use GitHub usernames or team names.
+
+# Global owners (all changes)
+*       @angularshubham23-rgb
+
+# Client related files
+client/** @angularshubham23-rgb
+
+# Server related files
+server/** @angularshubham23-rgb
