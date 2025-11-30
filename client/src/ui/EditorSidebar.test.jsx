@@ -1,5 +1,6 @@
 import React from 'react'
 import { render, screen } from '@testing-library/react'
+import { it, expect } from 'vitest'
 import EditorSidebar from './EditorSidebar'
 
 it('renders components list', ()=>{
