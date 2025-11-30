@@ -1,0 +1,17 @@
+name: Pages Debug
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+
+jobs:
+  debug:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print environment
+        run: |
+          echo "Running Pages debug workflow"
+          uname -a || true
+          node --version || true
+          echo "Done"
